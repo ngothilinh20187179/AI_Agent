@@ -27,33 +27,32 @@ Set Up for Samples using Azure AI Foundry and Azure AI Agent Service
     + ...
 
 ### .env
-GLOBAL_LLM_SERVICE=AzureOpenAI
+- GLOBAL_LLM_SERVICE=AzureOpenAI
+- GITHUB_TOKEN="..." 
 
-GITHUB_TOKEN="..."
+- AZURE_SUBSCRIPTION_ID="..."
+- AZURE_TENANT_ID="..."
+- AZURE_CLIENT_ID="..."
+- AZURE_CLIENT_SECRET="..."
 
-AZURE_SUBSCRIPTION_ID="..."
-AZURE_TENANT_ID="..."
-AZURE_CLIENT_ID="..."
-AZURE_CLIENT_SECRET="..."
+- AZURE_AI_RESOURCE_GROUP=rg-ngothilinhau12915-ai-fo-pj
+- AZURE_AI_PROJECT_NAME=ngothilinhau12915-ai-fo-pj
+- AZURE_AI_PROJECT_ENDPOINT=https://ngothilinhau12915-ai-fo-resource.services.ai.azure.com/api/projects/ngothilinhau12915-ai-fo-pj
+- AZURE_SERVICE_ENDPOINT=https://ngothilinhau12915-ai-fo-resource.cognitiveservices.azure.com
+- AZURE_OPENAI_ENDPOINT=https://ngothilinhau12915-ai-fo-resource.openai.azure.com
+- AZURE_OPENAI_DEPLOYMENT_NAME=gpt-4o-mini
+- AZURE_OPENAI_MODEL=gpt-4o-mini
+- AZURE_OPENAI_API_VERSION=2025-01-01-preview
 
-AZURE_AI_RESOURCE_GROUP=rg-ngothilinhau12915-ai-fo-pj
-AZURE_AI_PROJECT_NAME=ngothilinhau12915-ai-fo-pj
-AZURE_AI_PROJECT_ENDPOINT=https://ngothilinhau12915-ai-fo-resource.services.ai.azure.com/api/projects/ngothilinhau12915-ai-fo-pj
-AZURE_SERVICE_ENDPOINT=https://ngothilinhau12915-ai-fo-resource.cognitiveservices.azure.com
-AZURE_OPENAI_ENDPOINT=https://ngothilinhau12915-ai-fo-resource.openai.azure.com
-AZURE_OPENAI_DEPLOYMENT_NAME=gpt-4o-mini
-AZURE_OPENAI_MODEL=gpt-4o-mini
-AZURE_OPENAI_API_VERSION=2025-01-01-preview
-AZURE_OPENAI_API_KEY="..."
-AZURE_OPENAI_EMBEDDING_DEPLOYMENT_NAME="..."
-AZURE_OPENAI_CHAT_DEPLOYMENT_NAME="..."
-AZURE_OPENAI_SERVICE="..."
-AZURE_SEARCH_SERVICE_ENDPOINT = "..."
-AZURE_SEARCH_API_KEY = "..."
-AZURE_AI_AGENT_MODEL_DEPLOYMENT_NAME="..."
-AZURE_AI_AGENT_PROJECT_CONNECTION_STRING="..."
-
-OPENAI_API_KEY="..."
+- AZURE_OPENAI_API_KEY="..."
+- AZURE_OPENAI_EMBEDDING_DEPLOYMENT_NAME="..."
+- AZURE_OPENAI_CHAT_DEPLOYMENT_NAME="..."
+- AZURE_OPENAI_SERVICE="..."
+- AZURE_SEARCH_SERVICE_ENDPOINT = "..."
+- AZURE_SEARCH_API_KEY = "..."
+- AZURE_AI_AGENT_MODEL_DEPLOYMENT_NAME="..."
+- AZURE_AI_AGENT_PROJECT_CONNECTION_STRING="..."
+- OPENAI_API_KEY="..."
 
 ### Ref
 https://github.com/microsoft/ai-agents-for-beginners/tree/main/00-course-setup
